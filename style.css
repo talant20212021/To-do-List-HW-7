@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-size: 18px;
+  position: relative;
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: auto;
+  width: 600px;
+  position: absolute;
+  top: 130px;
+  left: 33%;
+  text-align: center;
+}
+
+.form {
+    border: solid 1px gray;
+    border-radius: 5px;
+    padding: 15px;
+
+}
+
+#input-todo {
+    cursor: pointer;
+    display: block;
+    width: 400px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-left: 84px;
+    font-size: 18px;
+}
+
+
+.todo-item {
+    cursor: pointer;
+    position: relative;
+    display: block;
+}
+
+button {
+    display: block;
+    width: 400px;
+    margin-left: 84px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.todo-list {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    min-height: 50px;
+}
+
+.todo-item {
+  margin: 15px 15px 15px 84px;
+  background-color: rgb(161, 161, 161);
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 15px;
+  width: 400px;
+}
